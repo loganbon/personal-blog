@@ -1,0 +1,110 @@
+// RESET DEFAULTS
+html {
+    font-family: $fonts;
+    color: $text-color-main;
+    line-height: 1.5em;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+body {
+    margin: 0;
+    font-size: 14px;
+    background-color: $background-color;
+}
+body .content {
+    margin-bottom: 120px;
+}
+a {
+    color: $text-color-main;
+    text-decoration: none;
+}
+a:hover {
+    color: $text-color-light;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: $fonts;
+}
+
+// CONTENT WRAP
+.wrapper {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+// NAVIGATION
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding-top: 10px;
+  }
+
+.nav a {
+    color: $text-color-main;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav a:hover {
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+// POSTS
+.posts {
+    font-size: 15px;
+    line-height: 1.6em;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.post .post-title {
+    line-height: 50%;
+}
+
+.post .post-date {
+    line-height: 80%;
+}
+
+.post-date {
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.post-head {
+    border-bottom: 0.1rem solid;
+    padding-bottom: 1rem;
+}
+
+
+// BIBLIOGRAPHY
+.bib {
+    text-align: unset;
+    border-top: 0.1rem solid;
+}
+
+
+// MOBILE CONFIG
+@media screen and (max-width: 750px) {
+    body {
+        margin: 0 18px;
+    }
+
+    .wrapper {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    
+}

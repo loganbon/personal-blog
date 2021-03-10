@@ -1,0 +1,31 @@
+# site setup
+title: Logan Bontrager
+url: "http://loganbontrager.com"
+permalink: /blog/:title/
+baseurl: 
+
+# markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# jekyll plugins
+plugins:
+  - jekyll-scholar
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-katex
+  - kramdown
+
+# scss config
+sass:
+  sass_dir: _scss
+  style: :compressed
+
+# katex config
+katex:
+  js_path: "assets/js"  # Path used to search for katex.min.js
+  rendering_options:
+    throw_error: false      # output error as text
+    error_color: "#cc0000"  # error color
