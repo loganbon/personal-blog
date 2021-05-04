@@ -1,10 +1,10 @@
 ---
-title: Variational Inference
+title: Stuff
 subtitle: A deep dive into finding the posterior.
 layout: post
 date: 2021-03-01
 keywords: variational inference, posterior
-published: true
+published: false
 ---
 
 

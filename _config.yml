@@ -1,7 +1,7 @@
 # site setup
 title: Logan Bontrager
 url: "http://loganbontrager.com"
-permalink: /blog/:title/
+permalink: /home/:title/
 baseurl: 
 
 # markdown settings
